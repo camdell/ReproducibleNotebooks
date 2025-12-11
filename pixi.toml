@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Cameron Riddell <cameron@dutc.io>"]
+channels = ["conda-forge"]
+name = "2025-12-11_ReproducibleReportsfromJupyter"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+jupyterlab = ">=4.5.0,<5"
+jupytext = ">=1.18.1,<2"
+matplotlib = ">=3.10.8,<4"
+polars = ">=1.36.1,<2"
